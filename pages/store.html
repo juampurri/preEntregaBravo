@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <ntitle>AOEIIPEDIA</ntitle>
+    
     <!--                         SCRIPTS & LINKS                     -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
@@ -29,7 +29,7 @@
     />
 
     <link rel="stylesheet" href="/css/styles.css" />
-    <script defer src="js/index.js"></script>
+    
   </head>
   <body class="body">
     <!--                         HEADER                     -->
@@ -69,15 +69,28 @@
           <h2 class="title__text">AOE II PEDIA</h2>
         </div>
         <!-- home contenido -->
+        <div class="store__div">  
+          <h3 class="store__title">Store AOE Kits</h3>
+          
+            <select name="store" id="store">  </select>
+              <button id="ingresarProd"> ADD PRODUCT</button>
+              <button id="finalizar"> FINALIZE YOUR PURCHASE</button>
         
+                <p class="store__totalCompra" id="totalCompra">  </p>
+        
+              <div class="store2">
+                  <form action="store.html">
+               <button class="store__boton--reset">RESET</button> </div>
+                  </form>
+              </div>
       </section>
     </main>
     <!--                         FIN MAIN                      -->
 
     <!--                         FOOTER                     -->
     <footer class="footer">
-      Copyright Microsoft . Design Juan Bravo - 2022
+      <p class="footer_text">  Copyright Microsoft . Design Juan Bravo - 2022</p>
     </footer>
-    <script src="/js/store.js"></script>
+    <script src="/js/store2.js"></script>
   </body>
 </html>
